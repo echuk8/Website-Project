@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background-color: gray;
+  background-color: orange;
   padding: 10px 10px 10px 155px;
   color: #000000;
   font-size: 150%;
@@ -29,13 +29,19 @@ header {
 
 main {
   display: block;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
+h1{
+  font-weight: bold;
+  font-size: 1.70em;
+  text-align: center;
+}
 h2 {
   font-weight: 600;
   margin-bottom: 0.5em;
   font-size: 1.625em;
   line-height: 1.23077em;
+  text-align: center;
 }
 
 h3 {
@@ -59,22 +65,24 @@ nav ul {
 }
 nav ul li {
   padding: 0.7em 0.7em;
-  display: inline;
+  display: inline-block;
+  background-color: grey;
 }
 nav a {
   text-decoration: none;
 }
 nav a:link {
-  color: #000000;
+  color: orange;
 }
 nav a:visited {
-  color: #6e1e1e;
+  color: white;
 }
 nav a:hover {
-  color: #57690e;
+  color: orange;
 }
 
 #message {
+  background-color: lightgrey;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 150%;
   text-align: left;
@@ -82,6 +90,7 @@ nav a:hover {
 }
 
 .slideshow-container {
+  background-color: orange;
   max-width: 800px;
   margin: auto;
   display: block;
@@ -108,7 +117,7 @@ nav a:hover {
 p {
   text-align: left;
   font-size: medium;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
   color: #000000;
   padding: 10px;
 }
@@ -134,6 +143,7 @@ textarea {
   margin-top: 20px;
 }
 
+
 footer {
   text-align: left;
   font-size: 80%;
@@ -145,10 +155,13 @@ footer {
 table,
 td,
 th {
-  margin: 100px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 5px;
   border: 1px black solid;
   text-align: center;
+  
 }
 
 tr:nth-child(even) {
