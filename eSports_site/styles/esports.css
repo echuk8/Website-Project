@@ -238,6 +238,24 @@ tr:nth-child(even) {
   #wrapper {
     width: 100%;
   }
+  header {
+    
+    padding: 10px 10px 10px 10px;
+    
+    font-size: 120%;
+    background-image: none;
+    
+  }
+  nav ul {
+    list-style-type: none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  .slide {
+    display: inline-block;
+    
+  }
   .event-container {
     grid-template-columns: 1fr;
   }
